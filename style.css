@@ -71,6 +71,23 @@ li {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+.header-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
+    align-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+.header-buttons button {
+    border: none;
+    border-radius: 18px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: cornflowerblue;
+}
 
 .content {
     grid-column: 2;
