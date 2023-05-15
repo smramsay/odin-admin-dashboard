@@ -91,9 +91,28 @@ li {
     gap: 15px;
 }
 
+.card {
+    border-radius: 8px;
+    border-left: 8px solid orange;
+    background-color: white;
+    box-shadow: 2px 2px 4px 1px lightgray;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+.card div:first-child {
+    font-weight: bold;
+    align-self: end;
+}
+.card-buttons {
+    justify-self: end;
+    align-self: center;
+}
+
 .content-header {
     grid-column: 1 / -1;
     font-size: 18px;
+    font-weight: bold;
     align-self: end;
 }
 
