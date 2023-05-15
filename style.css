@@ -103,6 +103,12 @@ li {
 .card-buttons {
     justify-self: end;
     align-self: center;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.card-buttons input {
+    width: 30px;
 }
 
 .content-header {
