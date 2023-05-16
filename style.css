@@ -161,9 +161,17 @@ input[type="search"] {
     grid-template-rows: 50px 1fr;
     gap: 15px;
 }
-.announcements-section div:nth-child(2) {
+.announcements-container {
     display: grid;
     grid-auto-rows: 1fr;
+}
+.announcements-container > div {
+    padding: 10px;
+    font-size: 0.9rem;
+}
+.announcements-container > div > div:first-child {
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .card, .announcements-container, .trending-container {
