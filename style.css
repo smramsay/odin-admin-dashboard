@@ -175,6 +175,7 @@ input[type="search"] {
     grid-template-rows: 1fr 3fr 1fr;
 }
 .card div:first-child {
+    font-size: 1.15rem;
     font-weight: bold;
     align-self: end;
 }
@@ -191,7 +192,7 @@ input[type="search"] {
 
 .content-header {
     grid-column: 1 / -1;
-    font-size: 18px;
+    font-size: 1.35rem;
     font-weight: bold;
     align-self: end;
 }
