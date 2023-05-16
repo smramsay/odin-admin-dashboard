@@ -10,7 +10,7 @@ body {
 }
 
 div {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 .main-container {
@@ -73,6 +73,7 @@ li {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 3fr;
+    padding: 0 20px;
 }
 
 .search {
