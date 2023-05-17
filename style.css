@@ -56,18 +56,18 @@ li img {
     align-items: center;
 }
 
-.sidebar li > button {
+.sidebar li > a {
     display: grid;
     grid-template-columns: 25px 1fr;
-    gap: 25px;
+    gap: 20px;
     align-items: center;
     color: var(--foreground-main);
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: bold;
-    background-color: transparent;
-    border: none;
+    text-decoration: none;
+    cursor: default;
 }
-.sidebar li > button:hover {
+.sidebar li > a:hover {
     transform: translateX(5px);
 }
 
