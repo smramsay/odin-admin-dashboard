@@ -133,7 +133,6 @@ input[type="search"] {
 .header-buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: column;
     align-content: center;
     gap: 30px;
     padding: 10px;
