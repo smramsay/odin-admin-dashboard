@@ -24,7 +24,6 @@ div {
     background-color: var(--background-blue);
     grid-row: 1 / span 2;
     display: grid;
-    grid-template-rows: 50px 1fr 2fr;
     align-content: start;
     gap: 30px;
     padding: 20px 15px;
