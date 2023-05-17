@@ -27,7 +27,7 @@ div {
     grid-template-rows: 50px 1fr 2fr;
     align-content: start;
     gap: 30px;
-    padding: 20px 0;
+    padding: 20px 15px;
 }
 
 .logo {
@@ -36,7 +36,6 @@ div {
     justify-content: start;
     gap: 5px;
     align-items: center;
-    padding-left: 20px;
     color: var(--foreground-main);
     font-size: 1.75rem;
     font-weight: bold;
@@ -56,7 +55,6 @@ li img {
     display: grid;
     grid-auto-rows: 50px;
     align-items: center;
-    padding-left: 20px;
 }
 
 .sidebar li {
