@@ -67,6 +67,9 @@ li img {
     background-color: transparent;
     border: none;
 }
+.sidebar li > button:hover {
+    transform: translateX(5px);
+}
 
 .header {
     grid-column: 2 / 3;
