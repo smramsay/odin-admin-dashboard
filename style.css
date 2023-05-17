@@ -56,14 +56,16 @@ li img {
     align-items: center;
 }
 
-.sidebar li {
+.sidebar li > button {
     display: grid;
     grid-template-columns: 25px 1fr;
     gap: 25px;
     align-items: center;
     color: var(--foreground-main);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
+    background-color: transparent;
+    border: none;
 }
 
 .header {
