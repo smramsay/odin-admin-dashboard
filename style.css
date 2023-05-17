@@ -10,10 +10,6 @@ body {
     margin: 0;
 }
 
-div {
-    /* border: 1px solid gray; */
-}
-
 .main-container {
     display: grid;
     grid-template-columns: 1fr 5fr;
