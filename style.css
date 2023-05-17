@@ -59,10 +59,10 @@ li img {
     padding-left: 20px;
 }
 
-li {
+.sidebar li {
     display: grid;
     grid-template-columns: 25px 1fr;
-    gap: 5px;
+    gap: 25px;
     align-items: center;
     color: var(--foreground-main);
     font-size: 1.5rem;
